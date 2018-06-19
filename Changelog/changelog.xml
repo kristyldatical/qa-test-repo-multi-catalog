@@ -26,4 +26,12 @@
             </column>
         </createTable>
     </changeSet>
+    <changeSet appdba:scriptChecksum="ef416194e73c013adca6a7eea4cff65d" author="kristyldatical" created="2018-06-19 13:20-0500" datical:origFileName="mssql_function.sql" datical:origFilePath="function" datical:rerunnable="true" datical:version="1" datical:versionStrategy="DEPLOY_ALL" id="20180619132017352_mssql_function" labels="mssql_function.sql">
+        <storedlogic:createFunction functionName="useremail" path="function/20180619132017352_mssql_function.sql" replaceIfExists="true" schemaName="SCHEMA_A"/>
+        <comment>Adding sql_code repo</comment>
+    </changeSet>
+    <changeSet appdba:scriptChecksum="824d0203a6bcb534a8386d67b2c4d6b4" author="kristyldatical" created="2018-06-19 13:20-0500" datical:origFileName="mssql_proc.sql" datical:origFilePath="procedure" datical:rerunnable="true" datical:version="1" datical:versionStrategy="DEPLOY_ALL" id="20180619132017799_mssql_proc" labels="mssql_proc.sql">
+        <createProcedure path="procedure/20180619132017799_mssql_proc.sql" procedureName="PROCPRINTHELLOWORLD" replaceIfExists="true" schemaName="SCHEMA_A"/>
+        <comment>Adding sql_code repo</comment>
+    </changeSet>
 </databaseChangeLog>
