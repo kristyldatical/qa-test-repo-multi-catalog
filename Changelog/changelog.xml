@@ -34,4 +34,8 @@
         <createProcedure path="procedure/20180619132017799_mssql_proc.sql" procedureName="PROCPRINTHELLOWORLD" replaceIfExists="true" schemaName="SCHEMA_A"/>
         <comment>Adding sql_code repo</comment>
     </changeSet>
+    <changeSet appdba:scriptChecksum="a05bab314a11c4aead5b7c807634954e" author="kristyldatical" created="2018-06-19 16:18-0500" datical:origFileName="mssql_trigger.sql" datical:origFilePath="trigger" datical:rerunnable="true" datical:version="1" datical:versionStrategy="DEPLOY_ALL" id="20180619161834505_mssql_trigger" labels="mssql_trigger.sql">
+        <storedlogic:createTrigger dbms="mssql" disabled="false" path="trigger/20180619161834505_mssql_trigger.sql" replaceIfExists="true" schemaName="SCHEMA_A" tableName="TABLE_1_A" triggerName="B_TRIGGER1"/>
+        <comment>Updating trigger</comment>
+    </changeSet>
 </databaseChangeLog>
