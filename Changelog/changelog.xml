@@ -38,4 +38,16 @@
         <storedlogic:createTrigger dbms="mssql" disabled="false" path="trigger/20180619161834505_mssql_trigger.sql" replaceIfExists="true" schemaName="SCHEMA_A" tableName="TABLE_1_A" triggerName="B_TRIGGER1"/>
         <comment>Updating trigger</comment>
     </changeSet>
+    <changeSet appdba:scriptChecksum="09622bd9ebe34c86885a65a180f229bf" author="datical (generated)" created="2018-06-22 15:43-0500" datical:origFileName="create_table_and_index.sql" datical:origFilePath="ddl" datical:version="1" datical:versionStrategy="DEPLOY_ALL" id="0w9m-1 (createTable tableName=employees)" labels="create_table_and_index.sql" objectQuotingStrategy="QUOTE_ALL_OBJECTS">
+        <createTable schemaName="SCHEMA_A" tableName="employees">
+            <column name="employee_id" type="int">
+                <constraints nullable="false"/>
+            </column>
+            <column name="last_name" type="varchar(50)">
+                <constraints nullable="false"/>
+            </column>
+            <column name="first_name" type="varchar(50)"/>
+            <column name="salary" type="money"/>
+        </createTable>
+    </changeSet>
 </databaseChangeLog>
