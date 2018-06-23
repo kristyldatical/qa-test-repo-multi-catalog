@@ -70,4 +70,8 @@
         <appdba:sqlcmd path="sql/20180623152530389_create_table_exp_3.sql" removeOuts="First"/>
         <comment>Adding sqlcmd script</comment>
     </changeSet>
+    <changeSet appdba:scriptChecksum="a9c388d8ea59a36894fe9aaea8d470a2" author="kristyldatical" created="2018-06-23 16:05-0500" datical:origFileName="create_table_exp_4.sql" datical:origFilePath="sql_direct" datical:version="1" datical:versionStrategy="DEPLOY_ALL" id="2018062316051980_create_table_exp_4" labels="create_table_exp_4.sql">
+        <appdba:sqlcmd path="sql/2018062316051980_create_table_exp_4.sql" removeOuts="First"/>
+        <comment>Adding sqlcmd script</comment>
+    </changeSet>
 </databaseChangeLog>
