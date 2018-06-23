@@ -64,20 +64,24 @@
     </changeSet>
     <changeSet appdba:scriptChecksum="3cfd539c5b2fdd96160f5e471a389a88" author="kristyldatical" created="2018-06-23 15:05-0500" datical:origFileName="create_table_exp_2.sql" datical:origFilePath="sql_direct" datical:version="1" datical:versionStrategy="DEPLOY_ALL" id="20180623150549559_create_table_exp_2" labels="create_table_exp_2.sql">
         <validCheckSum>8:929c4ff535c2fc1d03ecc255ae3d23b7</validCheckSum>
-  		<validCheckSum>8:b5053dcee8c659004cd957c22abfe9e6</validCheckSum>
+        <validCheckSum>8:b5053dcee8c659004cd957c22abfe9e6</validCheckSum>
         <appdba:sqlcmd path="sql/20180623150549559_create_table_exp_2.sql" removeOuts="First"/>
         <comment>Adding sqlcmd script</comment>
     </changeSet>
     <changeSet appdba:scriptChecksum="a9c388d8ea59a36894fe9aaea8d470a2" author="kristyldatical" created="2018-06-23 15:25-0500" datical:origFileName="create_table_exp_3.sql" datical:origFilePath="sql_direct" datical:version="1" datical:versionStrategy="DEPLOY_ALL" id="20180623152530389_create_table_exp_3" labels="create_table_exp_3.sql">
-       <validCheckSum>8:fa396fc06bef48a5bc34f035c2712d4b</validCheckSum>
-  		<validCheckSum>8:b5053dcee8c659004cd957c22abfe9e6</validCheckSum>
+        <validCheckSum>8:fa396fc06bef48a5bc34f035c2712d4b</validCheckSum>
+        <validCheckSum>8:b5053dcee8c659004cd957c22abfe9e6</validCheckSum>
         <appdba:sqlcmd path="sql/20180623152530389_create_table_exp_3.sql" removeOuts="First"/>
         <comment>Adding sqlcmd script</comment>
     </changeSet>
     <changeSet appdba:scriptChecksum="a9c388d8ea59a36894fe9aaea8d470a2" author="kristyldatical" created="2018-06-23 16:05-0500" datical:origFileName="create_table_exp_4.sql" datical:origFilePath="sql_direct" datical:version="1" datical:versionStrategy="DEPLOY_ALL" id="2018062316051980_create_table_exp_4" labels="create_table_exp_4.sql">
         <validCheckSum>8:fa396fc06bef48a5bc34f035c2712d4b</validCheckSum>
-  		<validCheckSum>8:b5053dcee8c659004cd957c22abfe9e6</validCheckSum>
+        <validCheckSum>8:b5053dcee8c659004cd957c22abfe9e6</validCheckSum>
         <appdba:sqlcmd path="sql/2018062316051980_create_table_exp_4.sql" removeOuts="First"/>
+        <comment>Adding sqlcmd script</comment>
+    </changeSet>
+    <changeSet appdba:scriptChecksum="01454548c6adc6884ce869e0c4fb8136" author="kristyldatical" created="2018-06-23 17:12-0500" datical:origFileName="new-0623-1.sql" datical:origFilePath="sql_direct" datical:version="1" datical:versionStrategy="DEPLOY_ALL" id="20180623171217395_new-0623-1" labels="new-0623-1.sql">
+        <appdba:sqlcmd path="sql/20180623171217395_new-0623-1.sql" removeOuts="First"/>
         <comment>Adding sqlcmd script</comment>
     </changeSet>
 </databaseChangeLog>
