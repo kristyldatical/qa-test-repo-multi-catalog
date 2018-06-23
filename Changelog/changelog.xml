@@ -81,6 +81,8 @@
         <comment>Adding sqlcmd script</comment>
     </changeSet>
     <changeSet appdba:scriptChecksum="01454548c6adc6884ce869e0c4fb8136" author="kristyldatical" created="2018-06-23 17:12-0500" datical:origFileName="new-0623-1.sql" datical:origFilePath="sql_direct" datical:version="1" datical:versionStrategy="DEPLOY_ALL" id="20180623171217395_new-0623-1" labels="new-0623-1.sql">
+        <validCheckSum>8:6cb4dad7bd450350d3fb3235884893a5</validCheckSum>
+        <validCheckSum>8:c76e39f87ba1f2f58d27f7e6d04785fb</validCheckSum>
         <appdba:sqlcmd path="sql/20180623171217395_new-0623-1.sql" removeOuts="First"/>
         <comment>Adding sqlcmd script</comment>
     </changeSet>
