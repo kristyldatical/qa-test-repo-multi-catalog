@@ -1,5 +1,7 @@
 <?xml version="1.1" encoding="UTF-8" standalone="no"?>
 <databaseChangeLog xmlns="http://www.liquibase.org/xml/ns/dbchangelog" xmlns:appdba="http://www.datical.net/xml/ns/appdba" xmlns:datical="http://www.datical.net/xml/ns/datical" xmlns:storedlogic="http://www.datical.net/xml/ns/storedlogic" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" logicalFilePath="Changelog/changelog.xml" xsi:schemaLocation="http://www.liquibase.org/xml/ns/dbchangelog http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-3.6.xsd http://www.datical.net/xml/ns/storedlogic http://www.datical.net/xml/ns/storedlogic-1.0.xsd http://www.datical.net/xml/ns/appdba http://www.datical.net/xml/ns/appdba-1.0.xsd">
+    <property context="REF" labels="" name="schema_name" value="schema_amelia"/>
+    <property context="DEV" labels="" name="schema_name" value="schema_felix"/>
     <changeSet author="Kristyl" created="Mon Jun 18 15:04:59 CDT 2018" id="001" labels="0618-A">
         <createTable schemaName="SCHEMA_A" tableName="TABLE_1_A">
             <column name="COLUMN1" type="TEXT">
@@ -48,6 +50,16 @@
             </column>
             <column name="first_name" type="varchar(50)"/>
             <column name="salary" type="money"/>
+        </createTable>
+    </changeSet>
+    <changeSet author="Kristyl" created="Sat Jun 23 11:56:16 CDT 2018" id="0623_1">
+        <createTable schemaName="SCHEMA_B" tableName="TABLE_B_A">
+            <column name="COLUMN1" type="VARCHAR(50)">
+                <constraints nullable="false" primaryKey="true" unique="false"/>
+            </column>
+            <column name="COLUMN2" type="TEXT">
+                <constraints nullable="true" primaryKey="false" unique="false"/>
+            </column>
         </createTable>
     </changeSet>
 </databaseChangeLog>

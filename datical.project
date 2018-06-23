@@ -4,7 +4,7 @@
   <dbDefs xsi:type="dbproject:SqlServerDbDef" name="DEV" driver="com.microsoft.sqlserver.jdbc.SQLServerDriver" hostname="localhost" port="1433" username="intuser" password="aW50dXNlcjcz" databaseName="DEV_0620" integratedSecurity="false" applicationName="Datical DB"/>
   <dbDefs xsi:type="dbproject:SqlServerDbDef" name="PROD" driver="com.microsoft.sqlserver.jdbc.SQLServerDriver" hostname="localhost" port="1433" username="intuser" password="aW50dXNlcjcz" databaseName="PROD_0620" integratedSecurity="false" applicationName="Datical DB"/>
   <plans name="0619" databaseDefs="//@dbDefs[name='REF'] //@dbDefs[name='DEV'] //@dbDefs[name='PROD']"/>
-  <changelog href="platform:/resource/0619/Changelog/changelog.xml#//@databaseChangeLog"/>
+  <changelog href="file:/C:/Users/datical/datical/0619/Changelog/changelog.xml#//@databaseChangeLog"/>
   <schemas name="SCHEMA_A"/>
   <schemas name="SCHEMA_B"/>
   <schemas name="SCHEMA_C"/>
