@@ -62,4 +62,8 @@
             </column>
         </createTable>
     </changeSet>
+    <changeSet appdba:scriptChecksum="3cfd539c5b2fdd96160f5e471a389a88" author="kristyldatical" created="2018-06-23 15:05-0500" datical:origFileName="create_table_exp_2.sql" datical:origFilePath="sql_direct" datical:version="1" datical:versionStrategy="DEPLOY_ALL" id="20180623150549559_create_table_exp_2" labels="create_table_exp_2.sql">
+        <appdba:sqlcmd path="sql/20180623150549559_create_table_exp_2.sql" removeOuts="First"/>
+        <comment>Adding sqlcmd script</comment>
+    </changeSet>
 </databaseChangeLog>
